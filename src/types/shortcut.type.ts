@@ -1,4 +1,3 @@
-namespace ShortcutType {
     export interface IShortcut {
         updater: string;
         mainShortcutId: number;
@@ -13,4 +12,3 @@ namespace ShortcutType {
         updatedAt: string;
     }
     export type IShortcutLists = IShortcut[];
-}

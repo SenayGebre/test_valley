@@ -1,4 +1,3 @@
-namespace BannerType {
   export interface IBanner {
     mainBannerId: number;
     title: string;
@@ -16,4 +15,3 @@ namespace BannerType {
     deletedAt: string | null;
   }
   export type IBannerList = IBanner[];
-}

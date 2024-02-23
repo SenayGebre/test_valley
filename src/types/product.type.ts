@@ -1,4 +1,3 @@
-namespace ProductType {
     export interface IProduct {
         startDate: null | string;
         id: number;
@@ -47,4 +46,3 @@ namespace ProductType {
     }
 
     export type IProductList = IProduct[];
-}
